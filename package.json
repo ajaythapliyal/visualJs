@@ -31,7 +31,8 @@
         "trailingComma": "es5",
         "tabWidth": 4,
         "semi": false,
-        "singleQuote": true
+        "singleQuote": true,
+        "printWidth": 80
     },
     "devDependencies": {
         "enzyme": "^3.10.0",
