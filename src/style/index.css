@@ -1,6 +1,11 @@
+@import url("./normalize.css");
+
 html, body {
 	min-height: 100vh;
-	width: 100vw;
+	height: 100vh;
+}
+
+html, body, p{
 	padding: 0;
 	margin: 0;
 }
@@ -12,9 +17,16 @@ html, body {
 	--primary-color-300 : #92aa83;
 	--secondary-color-100: #E7F59E;
 	--neutral-color-100 : #F1F7EE;
-
 }
 
 body{
 	background-color: var(--neutral-color-100);
+}
+
+
+main{
+	height: calc(100% - 60px);
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-gap: 1em;
 }
